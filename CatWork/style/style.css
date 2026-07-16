@@ -61,3 +61,17 @@ ul li h1 {
 .footer p {
     text-align: center;
 }
+
+table {
+    padding: 10px;
+}
+
+table img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+table td {
+    padding: 10px;
+}
