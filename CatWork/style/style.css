@@ -75,3 +75,17 @@ table img {
 table td {
     padding: 10px;
 }
+
+#cat-pic-refresh-btn {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-size: 15px;
+    padding: 10px 80px 10px 80px;
+    border: none;
+    border-radius: 10px;
+}
+
+#cat-pic-refresh-btn:hover {
+    background-color: rgb(190, 70, 50);
+    cursor: pointer;
+}

@@ -1,4 +1,6 @@
 let table = document.getElementById("picture-table")
+let catPicBtn = document.getElementById("cat-pic-refresh-btn")
+
 
 function renderCatPictureTable(images) {
     let html = ""
@@ -22,5 +24,7 @@ const updateCatPictures = async () => {
     for (let img of json) images.push(img["url"])
     renderCatPictureTable(images)
 }
-
+// handle events
+catPicBtn.addEventListener("click", updateCatPictures)
+// stuff to load on startup
 updateCatPictures()
