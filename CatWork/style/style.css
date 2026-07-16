@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+    background-color: rgb(20, 20, 20);
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li h1 {
+    padding: 5px 5px 5px 0px;
+    color: white;
+    display: block;
+    font-display: block;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#The {
+    color: red;
+    
+}
+
+#CatWork {
+    color: orange;
+}
