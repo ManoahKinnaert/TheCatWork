@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Verdana;
     background-color: rgb(20, 20, 20);
+    color: white;
 }
 
 .header {
@@ -44,4 +45,19 @@ ul li h1 {
 
 #CatWork {
     color: orange;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer p {
+    text-align: center;
 }
